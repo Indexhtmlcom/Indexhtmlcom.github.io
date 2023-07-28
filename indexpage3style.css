@@ -1,0 +1,18 @@
+h1{
+    background-color: aquamarine;
+    text-align: center;
+}
+p{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(47, 78, 158);
+}
+
+#div-image{
+    height: 300px;
+    background-image: url(/Images/pexels-brady-knoll-3369526.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+

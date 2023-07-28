@@ -1,0 +1,120 @@
+/*CSS styles go here */
+body{
+    font-family: Arial, sans-serif;  
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;  
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:white;
+        color: black;
+        padding: 1rem;
+        border-bottom: 2px solid black;
+    }
+    
+    nav{
+        background-color: #555;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 0,5rem
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0,5rem;
+    } 
+    
+    nav a:hover {
+        background-color: #777;
+    }
+    
+    main{
+        padding: 2rem
+    }
+    
+    h2{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 32px;
+     font-weight: bolder;
+     font-style: normal;
+     text-align: start;
+     color: black;
+    }
+    
+    .main-sections{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 5px solid orangered
+    }
+    
+    
+    p {
+        color: rgb(112, 144, 144);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+    
+    #p1{
+    }
+        
+    
+    .main-paragraphs{
+       
+    }
+    
+    .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 16px;
+    }
+    
+    .icons{
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .icons li{
+    
+    }
+    
+    .icons li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .icon li img{
+        height: 24 px;
+    }
+    
+    #footer-paragraph{
+        color: white;
+    }

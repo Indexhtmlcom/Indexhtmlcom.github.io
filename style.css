@@ -1,0 +1,184 @@
+/*CSS styles go here */
+body{
+font-family: Arial, sans-serif;  
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: #f0f0f0;  
+margin: 0;
+padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: black;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+h1{
+    padding-left: 100px;
+}
+
+#div-1{
+    height: 300px;
+    background-image: url(/Images/pexels-diego-sandoval-4766972.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+#div-2{
+    height: 300px;
+    background-image: url(/Images/pexels-alexey-demidov-10429350.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+#div-3{
+    height: 300px;
+    background-image: url(/Images/pexels-pew-nguyen-17654650.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+#div-4{
+    height: 300px;
+    background-image: url(/Images/pexels-cottonbro-studio-3338674.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+#div-5{
+    height: 300px;
+    background-image: url(/Images/pexels-michelle-riach-995743.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+#div-6{
+    height: 300px;
+    background-image: url(/Images/pexels-andrea-piacquadio-3769999.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+.searchbar{
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.searchbar-btn{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.searchbar-btn:hover{
+    background-color: #60c2fa;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 0,5rem;
+} 
+
+nav a:hover {
+    background-color: #777;
+}
+
+main{
+    padding: 2rem
+}
+
+h2{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 32px;
+ font-weight: bolder;
+ font-style: normal;
+ text-align: start;
+ color: black;
+}
+
+.main-sections{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid orangered
+}
+
+
+p {
+    color: rgb(249, 249, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#p1{
+
+}
+
+
+.main-paragraphs{
+   
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+
+.icons{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    list-style: none;
+}
+
+.icons li{
+
+}
+
+.icons li a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon li img{
+    height: 24 px;
+}
+
+
+#footer-paragraph{
+    color: white;
+}
